@@ -12,4 +12,4 @@ path = "C:/Users/ayushjain9/Documents/Projects/ds_project/chromedriver.exe"
 
 df = gs.get_jobs('data scientist',5, False, path, 15) # for 5 records
 
-df
+df.csv('glassdoor_job.csv', index = False)
